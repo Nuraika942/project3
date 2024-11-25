@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(171, 162, 162);
+}
+h1 {
+  text-align: center;
+}
+img {
+  height: 200px;
+  font-weight: 100px;
+}
+.box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+th,td{
+  border: 2px solid black;
+}
